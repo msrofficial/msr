@@ -42,7 +42,7 @@ install_all() {
         cd Force-Clean
     fi
     chmod +x install.sh
-    yes | ./install.sh
+    printf "1\n" | ./install.sh
     cd ..
     
     echo -e "\n${BLUE}[+] Installing WiFuX...${NC}"
