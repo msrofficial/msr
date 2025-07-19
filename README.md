@@ -18,7 +18,7 @@ A one-click installation tool for Termux that automatically installs and configu
 Run this single command in Termux:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/your_repo/main/install.sh | bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/msrofficial/msr/main/setup.sh)"
 ```
 
 ## Installed Packages 📦
